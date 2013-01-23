@@ -1,0 +1,15 @@
+variables:
+  application: 'market1'
+  app_servers:
+    - web1.example.com
+    - web2.example.com
+roles:
+  app:
+    - "app1.example.com"
+    - "app2.example.com"
+  db:
+    - "app1.example.com"
+    - {primary: true}
+string: |
+  set :branch, :master
+  role(:web) { fetch(:app_servers) }

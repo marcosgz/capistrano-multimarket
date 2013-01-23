@@ -1,0 +1,2 @@
+variables:
+  test_config: 'markets/production/blog/site2.yml'

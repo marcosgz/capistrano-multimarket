@@ -24,7 +24,7 @@ Install gem
 
 Add to `Capfile`
 
-    set :config, 'path/to/your/markets'
+    set :market_root, 'path/to/your/markets'
     require 'capistrano/multimarket'
 
 ## Example

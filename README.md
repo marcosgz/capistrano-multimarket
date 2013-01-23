@@ -1,5 +1,11 @@
 # capistrano-multimarket
 
+
+#### NOTE
+Forked from [capistrano-multiconfig](https://github.com/railsware/capistrano-multiconfig). But this extension loads both .yml and .rb files.
+Use the main project if you want to load only rb files ;-)
+
+
 ## Description
 
 Capistrano extension that allows to use multiple configurations(Ruby and YAML files).

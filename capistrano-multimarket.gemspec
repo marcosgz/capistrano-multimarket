@@ -10,6 +10,7 @@ Gem::Specification.new do |s|
   s.email       = ["mgzmaster@gmail.com"]
   s.homepage    = "https://github.com/marcosgz/capistrano-multimarket"
   s.summary     = %q{Capistrano multimarket}
+  s.license     = 'MIT'
 
   s.rubyforge_project = "capistrano-multimarket"
 
